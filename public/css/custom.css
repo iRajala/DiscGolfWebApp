@@ -1,0 +1,33 @@
+.nav-item {
+    margin: 0px 10px;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #3490dc;
+}
+
+body {
+    background-image: url("/img/background.jpg");
+    min-height:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+#mapid { height: 700px; width: 710px;} 
+
+#frontmap { height: 700px; width: 710px;} 
+
+.custom-popup .leaflet-popup-content-wrapper {
+    background:#2c3e50;
+    color:#fff;
+    font-size:16px;
+    line-height:24px;
+    }
+
+.custom-popup .leaflet-popup-content-wrapper a {
+    color:rgba(255,255,255,0.5);
+    }
+
+
